@@ -1,8 +1,13 @@
-package com.lld.solid_principles.single_responsiblity;
+package com.lld.solid_principles.single_responsiblity.example1;
 
 
 /**
  * A class should have only one reason to change.
+ * Every module or class should have responsibility over a single part of the functionality provided by the software.
+ * Motivation :
+ *  Maintainability
+ *  Testability
+ *  Para
  * Example - lets prepare a real life scenario of invoicing. A marker in a salable item and
  * we will prepare an invoice for it.
  */

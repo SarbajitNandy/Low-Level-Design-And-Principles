@@ -1,4 +1,4 @@
-package com.lld.solid_principles.single_responsiblity;
+package com.lld.solid_principles.single_responsiblity.example1;
 
 class Invoice2 {
     private Marker marker;

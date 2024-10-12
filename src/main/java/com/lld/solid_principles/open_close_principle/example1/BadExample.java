@@ -1,4 +1,4 @@
-package com.lld.solid_principles.open_close_principle;
+package com.lld.solid_principles.open_close_principle.example1;
 
 /**
  * a class should be open for extension but closed for any modification
