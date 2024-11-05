@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b34d3e5-2308-4b5f-9b4a-5c31b5c1e75d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/FlyBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/MallarDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/QuackBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/SimUDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/Squack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/strategy/WoodenDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/DisplayEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/TempDisplay1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/TempDisplay2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +49,7 @@
     "Application.GoodExample1.executor": "Run",
     "Application.GoodExample2.executor": "Run",
     "Application.SimUDuck.executor": "Run",
+    "Application.WeatherApp.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,23 +63,11 @@
       <recent name="com.lld.design_patterns.strategy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lld.design_patterns.observer" />
       <recent name="com.lld.design_patterns.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimUDuck">
-    <configuration name="BadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.solid_principles.liskov_substitution_principle.example1.BadExample" />
-      <module name="Low-Level-Design-And-Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lld.solid_principles.liskov_substitution_principle.example1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WeatherApp">
     <configuration name="GoodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lld.solid_principles.open_close_principle.example1.GoodExample" />
       <module name="Low-Level-Design-And-Principles" />
@@ -134,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.design_patterns.observer.WeatherApp" />
+      <module name="Low-Level-Design-And-Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lld.design_patterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherApp" />
         <item itemvalue="Application.SimUDuck" />
+        <item itemvalue="Application.GoodExample" />
         <item itemvalue="Application.GoodExample2" />
         <item itemvalue="Application.GoodExample1" />
-        <item itemvalue="Application.BadExample" />
-        <item itemvalue="Application.GoodExample" />
       </list>
     </recent_temporary>
   </component>
