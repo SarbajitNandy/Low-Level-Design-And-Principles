@@ -1,5 +1,5 @@
 package com.lld.design_patterns.observer;
-
+ 
 public class WeatherApp {
     public static void main(String[] args) throws InterruptedException {
         WeatherData data  =  new WeatherData();

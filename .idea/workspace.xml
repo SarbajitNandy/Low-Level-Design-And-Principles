@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b34d3e5-2308-4b5f-9b4a-5c31b5c1e75d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/DisplayEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/TempDisplay1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/TempDisplay2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/CouponDistribution/EcomApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/CouponDistribution/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/CouponDistribution/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2nKSVBXH9yJ9WWqaKy29KcDVxWp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,14 +50,19 @@
     "Application.GoodExample.executor": "Run",
     "Application.GoodExample1.executor": "Run",
     "Application.GoodExample2.executor": "Run",
+    "Application.MainApp.executor": "Run",
     "Application.SimUDuck.executor": "Run",
+    "Application.TicTacToe (1).executor": "Run",
+    "Application.TicTacToe (2).executor": "Run",
+    "Application.TicTacToe.executor": "Run",
     "Application.WeatherApp.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/rate-limiter"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,17 +70,18 @@
       <recent name="com.lld.design_patterns.strategy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lld.cabBookingApp" />
       <recent name="com.lld.design_patterns.observer" />
       <recent name="com.lld.design_patterns.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherApp">
-    <configuration name="GoodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.solid_principles.open_close_principle.example1.GoodExample" />
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.CouponDistribution.MainApp" />
       <module name="Low-Level-Design-And-Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lld.solid_principles.open_close_principle.example1.*" />
+          <option name="PATTERN" value="com.lld.CouponDistribution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.solid_principles.liskov_substitution_principle.example1.GoodExample1" />
+    <configuration name="TicTacToe (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.TicTacToe" />
       <module name="Low-Level-Design-And-Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lld.solid_principles.liskov_substitution_principle.example1.*" />
+          <option name="PATTERN" value="com.lld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.solid_principles.liskov_substitution_principle.example1.GoodExample2" />
+    <configuration name="TicTacToe (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.TicTacToe" />
       <module name="Low-Level-Design-And-Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lld.solid_principles.liskov_substitution_principle.example1.*" />
+          <option name="PATTERN" value="com.lld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimUDuck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.design_patterns.strategy.SimUDuck" />
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.TicTacToe" />
       <module name="Low-Level-Design-And-Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lld.design_patterns.strategy.*" />
+          <option name="PATTERN" value="com.lld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.TicTacToe (2)" />
+        <item itemvalue="Application.TicTacToe (1)" />
         <item itemvalue="Application.WeatherApp" />
-        <item itemvalue="Application.SimUDuck" />
-        <item itemvalue="Application.GoodExample" />
-        <item itemvalue="Application.GoodExample2" />
-        <item itemvalue="Application.GoodExample1" />
       </list>
     </recent_temporary>
   </component>
