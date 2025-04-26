@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b34d3e5-2308-4b5f-9b4a-5c31b5c1e75d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/CouponDistribution/EcomApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/CouponDistribution/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/CouponDistribution/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/multiThreadedPubSub/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/multiThreadedPubSub/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/multiThreadedPubSub/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/multiThreadedPubSub/Subscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/multiThreadedPubSub/Topic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lld/design_patterns/observer/WeatherApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
     "Application.GoodExample.executor": "Run",
     "Application.GoodExample1.executor": "Run",
     "Application.GoodExample2.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MainApp.executor": "Run",
     "Application.SimUDuck.executor": "Run",
     "Application.TicTacToe (1).executor": "Run",
@@ -58,11 +57,16 @@
     "Application.WeatherApp.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/rate-limiter"
+    "last_opened_file_path": "/Users/sarbajitnandy/Documents/Designs/Low-Level-Design-And-Principles",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,13 +79,13 @@
       <recent name="com.lld.design_patterns.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.CouponDistribution.MainApp" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="GoodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.solid_principles.open_close_principle.example1.GoodExample" />
       <module name="Low-Level-Design-And-Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lld.CouponDistribution.*" />
+          <option name="PATTERN" value="com.lld.solid_principles.open_close_principle.example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.TicTacToe" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.multiThreadedPubSub.Main" />
       <module name="Low-Level-Design-And-Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lld.*" />
+          <option name="PATTERN" value="com.lld.multiThreadedPubSub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lld.CouponDistribution.MainApp" />
+      <module name="Low-Level-Design-And-Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lld.CouponDistribution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lld.design_patterns.observer.WeatherApp" />
-      <module name="Low-Level-Design-And-Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lld.design_patterns.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GoodExample" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.TicTacToe (2)" />
-        <item itemvalue="Application.TicTacToe (1)" />
-        <item itemvalue="Application.WeatherApp" />
       </list>
     </recent_temporary>
   </component>
